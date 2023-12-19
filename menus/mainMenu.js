@@ -192,7 +192,7 @@ const showOption = async (option) => {
       }
 
     case 'Salir.':
-      const answer = await rl.question("¿Estas seguro que quieres salir del PRODUCT MANAGER?(y,n) ")
+      const answer = await rl.question("¿Estas seguro que quieres salir del Product manager?(y,n) ")
       if(answer.toLowerCase() === "y"){
         console.log('\x1b[31m')
         console.log('Saliendo del programa...', '\x1b[0m');
